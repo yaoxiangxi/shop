@@ -10,3 +10,4 @@ class Good
 }
 $obj = new Good();
 echo $obj->test();
+echo 123;
