@@ -1,1 +1,12 @@
-第一个文档
+<?php
+class Good
+{
+        public  function test()
+        {
+            return 123;
+
+        }
+
+}
+$obj = new Good();
+echo $obj->test();
